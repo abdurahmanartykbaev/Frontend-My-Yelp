@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.4s;
+}
+
+:root {
+    --color: #fff;
+    --main-color-first: #2c2e2f;
+    --main-color-second: #18ec70;
+    --circle-second: rgba(30,91,83,1);
+    --border: rgba(255, 255, 255, 0.18);
+    --background: rgba(255, 255, 255, 0.392);
+    --backdrop-filter-blur: blur(5.5px); 
+    --box-shadow: rgba(21, 24, 67, 0.37);
+}
+
+::selection{
+  background: rgb(0,123,255,0.3);
+  color: var(--color);
+}
+
+main {
+    min-height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+main .register {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 470px;
+    border-radius: 7px;
+    backdrop-filter: var(--backdrop-filter-blur);
+}
+
+main .register label {
+    color: var(--circle-second);
+}
+
+
+nav {
+    width: 100%;
+    box-shadow: 0 10px 8px 0 var(--box-shadow);
+    backdrop-filter: blur(5.5px);
+}
+
+ main .dashboard .container0 .card{
+    width: 500px;
+    min-height: calc(30vh - 70px);
+    background: var(--background);
+    box-shadow: 0 8px 32px 0 var(--box-shadow);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
