@@ -32,6 +32,8 @@ Sign in/Sign Up
 
 Add restaurants
 
+Discover restaurants
+
 ## The core team
 Abdurahman Artykbaev
 
